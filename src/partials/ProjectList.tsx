@@ -27,17 +27,13 @@ const ProjectList = () => (
         }
       />
       <Project
-        name="Project 2"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
+        name="Gurkistan Discord"
+        description="A Discord server with over 450 members! Still growing"
         link="/"
         img={{ src: '/assets/images/project-fire.png', alt: 'Project Fire' }}
         category={
           <>
-            <Tags color={ColorTags.VIOLET}>Next.js</Tags>
-            <Tags color={ColorTags.EMERALD}>Blog</Tags>
-            <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
+            <Tags color={ColorTags.BLUE}>Discord</Tags>
           </>
         }
       />
