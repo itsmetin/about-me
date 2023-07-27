@@ -21,10 +21,6 @@ const ProjectList = () => (
         bibendum. Nunc non posuere consectetur, justo erat semper enim, non
         hendrerit dui odio id enim."
         link="/"
-        img={{
-          src: '/assets/images/project-web-design.png',
-          alt: 'Project Web Design',
-        }}
         category={
           <>
             <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
